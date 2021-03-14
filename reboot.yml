@@ -1,0 +1,9 @@
+---
+- hosts: client1
+  tasks:
+   - name: File systems check
+     shell: reboot
+     register: result
+     
+   - debug: 
+       var: "result.stdout_lines"
