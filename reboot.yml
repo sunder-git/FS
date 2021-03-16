@@ -1,8 +1,8 @@
 ---
 - hosts: all
   tasks:
-   - name: File systems check
-     shell: reboot
+   - name: Reboot
+   shell: reboot
      register: result
      
    - debug: 
