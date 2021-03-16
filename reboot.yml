@@ -1,5 +1,5 @@
 ---
-- hosts: client1
+- hosts: ansible_nodes
   tasks:
    - name: File systems check
      shell: reboot
