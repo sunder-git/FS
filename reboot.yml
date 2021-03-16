@@ -1,5 +1,5 @@
 ---
-- hosts: client1
+- hosts: all
   tasks:
    - name: File systems check
      shell: reboot
