@@ -1,0 +1,9 @@
+---
+- hosts: g06aeducdr001
+  tasks:
+   - name: ping a server
+     shell: ping
+     register: result
+
+   - debug: 
+       var: "result.stdout_lines"
