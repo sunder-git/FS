@@ -1,5 +1,5 @@
 ---
-- hosts: g06aeducdr001.ahe.uk.ibm.com
+- hosts: 9.149.32.199
   tasks:
    - name: ping a server
      shell: ping
