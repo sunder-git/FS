@@ -1,5 +1,5 @@
 ---
-- hosts: g06aeducdr001
+- hosts: all
   tasks:
    - name: ping a server
      shell: ping
